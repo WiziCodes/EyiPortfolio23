@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: Poppins;
+    color: orange;
+}
+
+p {
+    font-family: Roboto;
+}
+
+img {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* /// */
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+i {
+    color: orange;
+}
+
+.nav,
+.WebLogoCont,
+.pageLinks ul,
+.socialsCont {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    border-bottom: 1px solid whitesmoke;
+    justify-content: space-between;
+    padding: 10px;
+    overflow-x: hidden;
+    z-index: 999;
+    backdrop-filter: blur(30px);
+    background-color: rgba(255, 255, 255, 0.425);
+}
+
+.navigations {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.WebLogoCont {
+    justify-content: center;
+    font-family: Happy Monkey;
+    /* color: white!important; */
+    text-shadow: 1px 1px 3px black;
+}
+
+
+.pageLinks li {
+    padding: 5px;
+    font-family: Poppins;
+    cursor: pointer;
+    color: orange;
+}
+
+.pageLinks li:hover {
+    font-weight: 600;
+    color: rgb(255, 82, 19);
+}
+
+.nav .socialsCont i {
+    margin-right: 10px;
+    color: orange;
+    text-shadow: 0px 1px 3px rgba(255, 68, 0, 0.377);
+    font-size: 20px;
+}
+
+.toggleCont {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+}
+
+/* .toggleCont .toggle {
+    font-weight: 600;
+    font-size: 25px;
+    font-family: Poppins;
+    color: orange;
+} */
+
+/* phoneNav */
+.phoneNav {
+    font-family: Roboto;
+    display: none;
+    flex-direction: column;
+    justify-content: start;
+    background: white;
+    padding: 0px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.171);
+    transition: 0.5s all ease;
+    overflow: hidden;
+}
+
+.phoneNav ul {
+    padding: 0px;
+}
+
+.phoneNav ul li {
+    padding: 5px 15px;
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+.phoneSocialsCont {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+.phoneSocialsCont i {
+    margin-right: 10px;
+}
+
+/* <------///----> */
+
+
+.gridCont {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 0px;
+    padding: 20px 40px;
+    margin-top: 55px;
+}
+
+/* .gridCont .b,
+.gridCont .d,
+.gridCont .f,
+.gridCont .h {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+}
+
+.gridCont .c,
+.gridCont .e,
+.gridCont .g,
+.gridCont .i {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+}
+
+.gridCont>.a:nth-child(1) {
+    grid-column: 1 / span 2;
+} */
+
+.gridCont .flex1,
+.gridCont .flex3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gridCont .flex1 .b,
+.gridCont .flex3 .f {
+    padding-right: 100px;
+}
+
+.gridCont .flex2,
+.gridCont .flex4 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.gridCont .flex2 .d,
+.gridCont .flex4 .h {
+    padding-left: 100px;
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 30px 10px 30px;
+    background-color: whitesmoke;
+}
+
+footer .quikLinksCont ul {
+    font-family: Poppins;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+footer .quikLinksCont ul li {
+    padding: 10px 50px;
+    font-weight: 600;
+}
+
+footer .socials ul {
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 10px 0px;
+}
+
+footer .socials ul li {
+    width: 35px;
+    height: 35px;
+    background-color: whites;
+    border-radius: 17.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 5px;
+    margin: 0px 20px;
+}
+
+footer .socials ul li img {
+    width: 20px;
+}
+
+footer .socials ul li button {
+    width: 200px;
+}
+
+footer .socials ul li img {
+    opacity: 0.5;
+}
+
+.copyrightCont {
+    display: flex;
+    font-family: Roboto;
+    font-size: 13px;
+    padding-top: 20px;
+}

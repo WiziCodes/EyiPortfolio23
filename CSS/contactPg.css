@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+i {
+    color: orange;
+}
+
+.nav,
+.WebLogoCont,
+.pageLinks ul,
+.socialsCont {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    /* border-bottom: 1px solid whitesmoke; */
+    justify-content: space-between;
+    padding: 10px;
+    overflow-x: hidden;
+    z-index: 999;
+}
+
+.navigations {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.WebLogoCont {
+    justify-content: center;
+    font-family: Happy Monkey;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+
+.pageLinks li {
+    padding: 5px;
+    font-family: Poppins;
+    cursor: pointer;
+    color: orange;
+}
+
+.pageLinks li:hover {
+    font-weight: 600;
+    color: rgb(255, 82, 19);
+}
+
+.toggleCont {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+}
+
+/* .toggleCont .toggle {
+    font-weight: 600;
+    font-size: 25px;
+    font-family: Poppins;
+    color: orange;
+} */
+
+/* phoneNav */
+.phoneNav {
+    font-family: Roboto;
+    display: none;
+    flex-direction: column;
+    justify-content: start;
+    background: white;
+    padding: 0px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.171);
+    transition: 0.5s all ease;
+    overflow: hidden;
+}
+
+.phoneNav ul {
+    padding: 0px;
+}
+
+.phoneNav ul li {
+    padding: 5px 15px;
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+.phoneSocialsCont {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+.phoneSocialsCont i {
+    margin-right: 10px;
+}
+
+/* <------///----> */
+.mainBox {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 80vw;
+    height: 80vh;
+    box-shadow: 1px 2px 6px orangered;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.mainBox .contactBox {
+    height: 100%;
+    padding: 40px;
+
+}
+
+.mainBox .contactBox h1 {
+    font-size: 40px;
+    font-family: Poppins;
+    color: orange;
+}
+
+.mainBox .picCont {
+    background: url("../Pics/gencraft_image_1701777524438-1.png");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.mainBox .formCont {
+    width: 80%;
+}
+
+.mainBox .formCont form label {
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.mainBox .formCont form input {
+    border: none;
+    box-shadow: 0px 0px 3px black;
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 10px 15px;
+    transition: 0.5s all ease;
+
+}
+
+.mainBox .formCont form textarea {
+    height: 80px;
+    width: 100%;
+    border: none;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+    transition: 0.5s all ease;
+    margin: 10px 0px;
+    padding: 10px 15px;
+
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px orangered;
+}
+
+.mainBox .formCont form button {
+    padding: 5px 10px;
+    font-family: Poppins;
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mainBox .formCont form button:hover {
+    opacity: 0.6;
+}
+
+
+/* responsiveness */

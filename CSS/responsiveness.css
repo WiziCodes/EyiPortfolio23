@@ -1,0 +1,736 @@
+@media (max-width:884px) {
+    .home {
+        height: 65vh;
+        border-bottom-left-radius: 100px;
+
+    }
+
+    .showCaseCont {
+        display: grid;
+        grid-template-columns: 55% 45%;
+        width: 100%;
+    }
+
+    .descCont {
+        padding-left: 20px;
+        /* overflow: hidden; */
+
+    }
+
+    .descCont h3 {
+        font-size: 30px;
+    }
+
+    .descCont .txtBx {
+        font-size: 30px;
+    }
+
+    .descCont h1 {
+        font-size: 50px;
+    }
+
+    .imgCont img {
+        animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
+        /* animation-delay: 2s, 3s; */
+        width: 500px;
+    }
+
+    /* // */
+
+    .breifTextCont .textArea p {
+        font-size: 18px;
+    }
+
+    /* // */
+    .enlightenmentCont {
+        background-color: white;
+    }
+
+    .enlightenmentCont .services {
+        display: flex;
+        overflow-x: scroll;
+        width: 100%;
+    }
+
+    .enlightenmentCont .services .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        min-width: 100px;
+        margin: 0px;
+        background-color: rgba(255, 166, 0, 0.384);
+        border-radius: 0px;
+        box-shadow: 0px 0px 0px transparent;
+        margin: 2px;
+    }
+
+    .enlightenmentCont .services .title {
+        font-family: Poppins;
+        font-weight: 600;
+        padding: 5px;
+        margin-bottom: 0px;
+        border-bottom: 0px solid rgb(255, 82, 19);
+        transform: translateY(0px);
+        transition: 0.5s all ease;
+        color: orangered;
+    }
+
+    .enlightenmentCont .services .titleText {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(0px);
+        background-color: transparent;
+        height: auto;
+        width: 100%;
+        transition: 1s all ease;
+    }
+
+    .enlightenmentCont .services .titleText span {
+        padding: 15px;
+        text-align: center;
+        color: black;
+        font-family: Roboto;
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+    .enlightenmentCont .services .box:hover .titleText {
+        transform: translateY(0px);
+
+    }
+
+    .enlightenmentCont .services .box:hover .title {
+        transform: translateY(0px);
+    }
+
+    /* // */
+    .porfolioCont .porfolioItems {
+        gap: 0px;
+        border-radius: 0px;
+    }
+
+    .porfolioCont .porfolioItems .items {
+        width: 245px;
+        height: auto;
+        box-shadow: 0px 0px 0px transparent;
+        border-radius: 0px;
+
+    }
+
+    .porfolioCont .porfolioItems .items img {
+        border-radius: 0px;
+    }
+
+    .feedBackCont .feed .writeupCont {
+        font-size: 20px;
+    }
+
+    /* // */
+    .mainBox {
+        width: 90vw;
+        height: auto;
+    }
+
+    .mainBox .formCont form input {
+        font-size: 20px;
+
+    }
+
+    .mainBox .formCont form textarea {
+        font-size: 18px;
+    }
+
+    /* // */
+    .gridCont .flex1 .b,
+    .gridCont .flex3 .f {
+        padding-right: 20px;
+    }
+
+    .gridCont img {
+        width: 320px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .gridCont p {
+        font-size: 19px;
+    }
+}
+
+@media (max-width:430px) {
+    .nav {
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.527);
+        z-index: 999;
+        background-color: white;
+        width: 100%;
+    }
+
+    .navigations {
+        position: fixed;
+        z-index: 999;
+        width: 100%;
+    }
+
+    .socialsCont {
+        display: none;
+    }
+
+    .pageLinks li {
+        display: none;
+    }
+
+    .toggleCont {
+        display: flex;
+        padding: 0px 15px;
+    }
+
+    .phoneNav {
+        display: flex;
+        z-index: 999;
+    }
+
+    .home {
+        background: url("");
+        height: 95vh;
+        box-shadow: none;
+        border-bottom-left-radius: 0px;
+    }
+
+    .showCaseCont {
+        display: grid;
+        grid-template-columns: 100%;
+        width: 100%;
+    }
+
+    .descCont {
+        align-items: center;
+        padding-left: 0px;
+        font-family: Poppins;
+        transform: translate(0px, 310px);
+    }
+
+    .descCont h3 {
+        font-size: 20px;
+    }
+
+    .descCont .txtBx {
+        font-size: 16px;
+    }
+
+    .descCont h1 {
+        font-size: 25px;
+    }
+
+    .descCont p {
+        font-family: Roboto;
+        width: 200px;
+        text-align: center;
+    }
+
+    .imgCont {
+        transform: translate(0px, -120px);
+    }
+
+    .imgCont img {
+        width: 300px;
+    }
+
+    /* bggh */
+    .breifTextCont {
+        background-color: whitesmoke;
+    }
+
+    .breifTextCont .textArea {
+        align-items: start;
+        font-family: Roboto;
+        max-width: 1000px;
+    }
+
+    .breifTextCont .textArea h1 {
+        font-weight: 600;
+        margin-bottom: 5px;
+        color: orange;
+        font-size: 30px;
+    }
+
+    .breifTextCont .gridBox {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .breifTextCont .textArea p {
+        color: rgb(170, 170, 170);
+        font-weight: 100;
+        font-size: 15px;
+    }
+
+    .breifTextCont .btnArea {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        padding: 10px 0px;
+    }
+
+    .breifTextCont .btnArea button {
+        padding: 10px 12px;
+        border: 2px solid orange;
+        background-color: white;
+        color: orange;
+        border-radius: 20px;
+    }
+
+    /* //uhuh// */
+    .enlightenmentCont {
+        background-color: white;
+    }
+
+    .enlightenmentCont .services {
+        display: flex;
+        overflow-x: scroll;
+        width: 100%;
+    }
+
+    .enlightenmentCont .services .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        min-width: 100px;
+        margin: 0px;
+        background-color: rgba(255, 166, 0, 0.062);
+        border-radius: 0px;
+        box-shadow: 0px 0px 0px transparent;
+        margin: 2px;
+    }
+
+    .boxA::before {
+        content: 'SERVICES';
+        position: absolute;
+        width: 200px;
+        font-size: 25px;
+        font-weight: 600;
+        color: rgba(255, 166, 0, 0.192);
+        letter-spacing: 8px;
+    }
+
+    .enlightenmentCont .services .title {
+        font-family: Poppins;
+        font-weight: 600;
+        padding: 5px;
+        margin-bottom: 0px;
+        border-bottom: 0px solid rgb(255, 82, 19);
+        transform: translateY(0px);
+        transition: 0.5s all ease;
+        color: orangered;
+    }
+
+    .enlightenmentCont .services .titleText {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(0px);
+        background-color: transparent;
+        height: auto;
+        width: 100%;
+        transition: 1s all ease;
+    }
+
+    .enlightenmentCont .services .titleText span {
+        padding: 3px;
+        text-align: center;
+        color: black;
+        font-family: Roboto;
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+    .enlightenmentCont .services .box:hover .titleText {
+        transform: translateY(0px);
+
+    }
+
+    .enlightenmentCont .services .box:hover .title {
+        transform: translateY(0px);
+    }
+
+    /* //// */
+    .porfolioCont {
+        background-color: whitesmoke;
+    }
+
+    .boxB::before {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .porfolioCont .porfolioItems {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0px;
+        padding: 20px 10px;
+        margin-top: 10px;
+        border-radius: 0px;
+    }
+
+    .porfolioCont .porfolioItems .items {
+        width: auto;
+        height: auto;
+        overflow: hidden;
+        transition: 1s all ease;
+        box-shadow: none;
+        cursor: pointer;
+        border-radius: 0px;
+    }
+
+    .porfolioItems>.items:nth-child(3) {
+        grid-column: 1 / span 2;
+    }
+
+    .porfolioItems>.items:nth-child(6) {
+        grid-column: span 2;
+    }
+
+    .porfolioCont .porfolioItems .items img {
+        border-radius: 0px;
+    }
+
+    .feedBackCont {
+        padding: 10px 10px;
+    }
+
+    .feedBackCont .titleCont h1 {
+        font-size: 25px;
+    }
+
+    .feedBackCont .feed .picCont img {
+        width: 120px;
+        height: 120px;
+        border-radius: 75px;
+    }
+
+    .feedBackCont .feed .writeupCont {
+        font-size: 16px;
+        width: 300px;
+    }
+
+    .feedCont .owl-nav {
+        position: relative;
+        top: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background: transparent;
+        color: white;
+
+    }
+
+    /* footer */
+    footer .quikLinksCont ul li {
+        padding: 10px 30px;
+        font-weight: 600;
+    }
+
+    /* // */
+    .feedBackCont {
+        background-color: white;
+    }
+
+    /* // */
+    footer {
+        background-color: whitesmoke;
+    }
+
+    footer .socials ul li {
+        width: 35px;
+        height: 35px;
+        background-color: white;
+        border-radius: 17.5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.411);
+        margin: 0px 20px;
+        cursor: pointer;
+    }
+
+    footer .socials ul li {
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.411);
+    }
+
+    /* //contact */
+    .contactBody {
+        background: url("../Pics/gencraft_image_1701777528800-1.png");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .mainBox .contactBox {
+        height: 100%;
+        padding: 20px;
+
+    }
+
+    .mainBox {
+        position: sticky;
+        display: grid;
+        grid-template-columns: 100%;
+        width: 90vw;
+        height: 550px;
+        margin-top: 50px;
+        box-shadow: none;
+        border: 1px solid rgba(128, 128, 128, 0.719);
+        border-radius: 5px;
+        overflow: hidden;
+        background-color: rgba(0, 0, 0, 0.459);
+        backdrop-filter: blur(5px);
+    }
+
+    .mainBox .formCont {
+        width: 90%;
+    }
+
+    .mainBox .contactBox h1 {
+        font-size: 35px;
+        font-family: Poppins;
+        color: white;
+    }
+
+    .mainBox .formCont form label {
+        font-size: auto;
+        font-family: Poppins;
+        font-weight: 600;
+        color: orange;
+    }
+
+    .mainBox .formCont form input {
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        font-size: 16px;
+    }
+
+    .mainBox .formCont form input::placeholder {
+        color: white;
+
+    }
+
+    .mainBox .picCont {
+        display: none;
+    }
+
+    .mainBox .formCont form textarea {
+        background: transparent;
+        color: white;
+        border: 1px solid white;
+        font-size: 16px;
+    }
+
+    .mainBox .formCont form textarea::placeholder {
+        color: white;
+    }
+
+
+    /* aboutPg */
+    .gridCont img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .gridCont {
+
+        padding: 20px 10px;
+    }
+
+    .gridCont .flex1,
+    .gridCont .flex3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gridCont .flex1 .b,
+    .gridCont .flex3 .f {
+        padding: 20px;
+        padding-right: 0px;
+    }
+
+    .gridCont .flex2,
+    .gridCont .flex4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+
+    .gridCont .flex2,
+    .gridCont .flex1,
+    .gridCont .flex3 {
+        border-bottom: 1px solid orange;
+
+    }
+
+    .gridCont .flex2 .d,
+    .gridCont .flex4 .h {
+        padding: 20px;
+    }
+
+    .gridCont h1 {
+        font-size: 30px;
+    }
+
+    .gridCont p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width:320px) {
+    .nav {
+        padding: 3px 10px;
+    }
+
+    /* // */
+    .imgCont {
+        transform: translate(0px, -90px);
+        overflow: visible;
+    }
+
+    .imgCont img {
+        width: 250px;
+        height: 250px;
+        overflow: visible;
+    }
+
+    .descCont h3 {
+        font-size: 16px;
+    }
+
+    .descCont .txtBx {
+        font-size: 15px;
+    }
+
+    .descCont h1 {
+        font-size: 20px;
+    }
+
+    .descCont p {
+
+        font-size: 12px;
+    }
+
+    .descCont {
+        align-items: center;
+        padding-left: 0px;
+        font-family: Poppins;
+        transform: translate(0px, 230px);
+    }
+
+    /* // */
+    .breifTextCont {
+        padding: 20px 30px;
+    }
+
+    .breifTextCont .btnArea button {
+        padding: 8px 10px;
+    }
+
+    .breifTextCont .textArea h1 {
+        font-weight: 600;
+        margin-bottom: 5px;
+        color: orange;
+        font-size: 20px;
+    }
+
+    .breifTextCont .textArea p {
+        color: rgb(170, 170, 170);
+        font-weight: 100;
+        font-size: 13px;
+    }
+
+    /* //en */
+    .enlightenmentCont {
+        padding: 25px 5px;
+    }
+
+    .boxA::before {
+        font-size: 20px;
+    }
+
+    .boxA::after {
+        font-size: 15px;
+    }
+
+    /* // */
+    .boxB::before {
+
+        font-size: 20px;
+    }
+
+    .boxB::after {
+        font-size: 15px;
+    }
+
+    /* /feed */
+    .feedBackCont .titleCont h1 {
+        font-size: 25px;
+    }
+
+    .feedBackCont .feed .picCont img {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* p */
+    .feedBackCont .feed .writeupCont {
+        font-size: 13px;
+        width: 300px;
+    }
+
+
+    /* contact */
+    .mainBox {
+        height: 390px;
+        margin-top: 35px;
+    }
+
+    .mainBox .contactBox h1 {
+        font-size: 25px;
+    }
+
+    .mainBox .formCont form textarea {
+        height: 35px;
+    }
+
+    .mainBox .formCont form label {
+        font-size: 18px;
+        font-family: Poppins;
+        font-weight: 600;
+        color: orange;
+    }
+
+    /* about */
+    .gridCont {
+        padding: 0px 0px;
+    }
+
+    .gridCont h1 {
+        font-size: 30px;
+    }
+
+    .gridCont p {
+        font-size: 16px;
+    }
+
+
+}

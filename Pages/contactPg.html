@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/contactPg.css">
+    <link rel="stylesheet" href="../CSS/responsiveness.css">
+    <link rel="stylesheet" href="../CSS/owl.carousel.min.css">
+    <link rel="stylesheet" href="../CSS/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../CSS/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="contactBody">
+    <div class="navigations">
+        <nav class="nav">
+            <div class="WebLogoCont">
+                <h1>Portfolio.</h1>
+            </div>
+            <div class="pageLinks">
+                <ul>
+                    <a href="../Pages/index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="../Pages/contactPg.html">
+                        <li style="font-weight: 600; color: orangered !important;">Contact</li>
+                    </a>
+                    <a href="../Pages/about.html">
+                        <li>About Us</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="socialsCont">
+                <a href="https://www.facebook.com/profile.php?id=100075649772601" target="_blank"> <i
+                        class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://instagram.com/titus_king02?igshid=NzZIONBkYWE4Ng==" target="_blank"> <i
+                        class="fa-brands fa-instagram"></i>
+                </a>
+                </a>
+                <a href="https://wa.me/+2348121879389" target="_blank"> <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                </a>
+            </div>
+            <div class="toggleCont">
+                <i class="fa-solid fa-bars toggle"></i>
+            </div>
+        </nav>
+        <nav class="phoneNav" style="height: 0px;">
+            <div class="phonePageLinks">
+                <ul>
+                    <a href="../Pages/index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="../Pages/contactPg.html">
+                        <li style="font-weight: 600; color: orangered !important;">Contact</li>
+                    </a>
+                    <a href="../Pages/about.html">
+                        <li>About Us</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="phoneSocialsCont">
+                <a href="https://www.facebook.com/profile.php?id=100075649772601" target="_blank"> <i
+                        class="fa-brands fa-facebook-f" target="_blank"></i>
+                </a>
+                <a href="https://instagram.com/titus_king02?igshid=NzZIONBkYWE4Ng==" target="_blank"> <i
+                        class="fa-brands fa-instagram" target="_blank"></i>
+                </a>
+                <a href="https://wa.me/+2348121879389" target="_blank"> <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+        </nav>
+
+    </div>
+
+    <div class="mainBox" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="contactBox">
+            <h1>Get in Touch</h1>
+            <div class="formCont">
+                <form onsubmit="send(); reset(); return false;">
+                    <label>Name</label><br><input placeholder="Your Name" id="name" type="text"><br>
+                    <label>Email</label><br><input placeholder="Enter your email" id="email" type="email"><br>
+                    <label>Message</label><br><textarea placeholder="Write what's on tour mind🤗" id="textArea"
+                        class="texfArea" cols="30" rows="10"></textarea>
+                    <button type="submit">Send</button>
+                    <p id="msg"></p>
+                </form>
+            </div>
+
+        </div>
+        <div class="picCont">
+        </div>
+    </div>
+    <script src="../Script/aos.js"></script>
+    <script>
+        AOS.init()
+        const toggle = document.querySelector(".toggle")
+        const phoneNav = document.querySelector(".phoneNav")
+        toggle.addEventListener("click", toggler)
+
+        function toggler() {
+            const style = phoneNav.style.height;
+            if (style == "0px") {
+                phoneNav.style.height = "125px"
+            }
+            else {
+                phoneNav.style.height = "0px"
+            }
+        }
+    </script>
+    <script src="../Script/contactPg.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
